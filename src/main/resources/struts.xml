@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="cascade" extends="struts-default" namespace="/cascade">
+        <action name="showProvinces" class="com.zyp.action.ProvinceAction" method="showProvinces">
+        </action>
+        <action name="showCitys" class="com.zyp.action.CityAction" method="showCitys">
+        </action>
+        <action name="showAreas" class="com.zyp.action.AreaAction" method="showAreas">
+        </action>
+    </package>
+</struts>
