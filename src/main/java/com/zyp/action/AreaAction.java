@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 import java.util.List;
 
+//这是我在GitHub上做的修改
 public class AreaAction extends ActionSupport {
     //接受城市编号
     private String citycode;
